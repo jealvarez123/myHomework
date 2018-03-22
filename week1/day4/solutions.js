@@ -20,3 +20,8 @@ Functions:
 //
 // };
 // console.log(checkPalindrome('Borscht'));
+
+// var sumDigits = (num) => {
+//   return num / 7
+// };
+// console.log(sumDigits(42));

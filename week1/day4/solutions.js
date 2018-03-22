@@ -8,3 +8,15 @@ Functions:
 //
 // console log will display information in console
 //
+
+// const checkPalindrome = (name) => {
+//   return name == name.split('').reverse().join('');
+//
+// };
+// console.log(checkPalindrome('radar'));
+//
+// const checkPalindrome = (name) => {
+//   return name == name.split('').reverse().join('');
+//
+// };
+// console.log(checkPalindrome('Borscht'));

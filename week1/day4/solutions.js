@@ -32,3 +32,10 @@ Functions:
 // }
 //
 // console.log(pythagorean(8, 6));
+
+
+var arrayBan = [1, 2, 3, 4, 5, 6];
+
+var sumArray = (num1, num2) => num1 + num2;
+
+  console.log( arrayBan.reduce(sumArray));

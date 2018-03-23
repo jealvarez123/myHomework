@@ -25,3 +25,10 @@ Functions:
 //   return num / 7
 // };
 // console.log(sumDigits(42));
+
+
+// function pythagorean(sideA, sideB){
+//   return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
+// }
+//
+// console.log(pythagorean(8, 6));

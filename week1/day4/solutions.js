@@ -34,8 +34,38 @@ Functions:
 // console.log(pythagorean(8, 6));
 
 
-var arrayBan = [1, 2, 3, 4, 5, 6];
+// var arrayBan = [1, 2, 3, 4, 5, 6];
+//
+// var sumArray = (num1, num2) => num1 + num2;
+//
+//   console.log( arrayBan.reduce(sumArray));
 
-var sumArray = (num1, num2) => num1 + num2;
 
-  console.log( arrayBan.reduce(sumArray));
+
+// function printPrime(value) {
+//     var primes = [];
+//     for(var i = 2; i < value; i++) {
+//         primes[i] = true;
+//     }
+//     var limit = Math.sqrt(value);
+//     for(var i = 2; i < limit; i++) {
+//         if(primes[i] === true) {
+//             for(var j = i * i; j < value; j += i) {
+//                 primes[j] = false;
+//             }
+//         }
+//     }
+//     for(var i = 2; i < value; i++) {
+//         if(primes[i] === true) {
+//             console.log(i + " " + primes[i]);
+//         }
+//     }
+// }
+// printPrime()
+
+
+for (var i = 0; i < 9; i++) {
+  if (i % 3 === 0) {
+  console.log(i + "-");
+  }
+}

@@ -109,3 +109,23 @@ for (var i = 0; i < bondFilms.length; i++) {
   bondTitles.push(bondFilms[i].title);
   console.log(bondTitles);
 }
+
+for (var i = 0; i < bondFilms.length; i++) {
+  var oddBonds = [];
+  if (bondFilms[i].year % 2 !== 0) {
+  oddBonds.push(bondFilms[i].year);
+  console.log(oddBonds);
+
+  }
+  console.log(bondTitles);
+}
+
+
+  let totalGross = 0;
+
+  for (var i = 0; i < bondFilms.length; i++) {
+    let x = bondFilms[i].gross;
+    let y = x.replace('$','').replace(/,/g,);
+    totalGross += Number(y);
+  }
+console.log(totalGross);

@@ -1,33 +1,93 @@
-h1 {
+header {
   text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
 }
 
 body {
+  background-color: #98ABC7
 
 }
 
 header {
 
+
 }
 
 main {
+  display:block;
+  text-align: left;
+  background:;
+  padding: 10px 50px;
 
 }
 
 .blogBoxes {
-
+background: none;
+padding: 90px;
+display: inline-grid;
 
 }
 
+
+p {
+  position: relative;
+  float: left;
+}
+
+
 #textBoxHeader1 {
+  text-align: left;
+  width: 52%;
+
+  border: none;
+  font-size: 20px;
+  padding: auto;
+background: none;
+box-shadow: 5px 2px 5px 2px #888888;
+
 
 }
 
 #textBoxBody1 {
 
 
+  padding: 50px 13px;
+  margin: auto;
+  border: none;
+  text-align: left;
+  font-size: 20px;
+  background: none;
+  box-shadow: 5px 2px 5px 2px #888888;
+
+}
+
+button {
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 10px auto;
+
+
 }
 
 footer {
-  
+  text-align: center;
+
+}
+
+hr {
+}
+
+.links {
+  display: inline-block;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
 }

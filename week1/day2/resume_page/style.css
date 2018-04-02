@@ -1,0 +1,58 @@
+h1 {
+  text-align:  center;
+  font-family: 'Righteous', cursive;
+  padding: 50px
+
+}
+
+.title {
+
+  color: blue;
+  padding: 50px 0px;
+
+
+}
+body {
+    background-color: #9fdf9f;
+    padding: 50px;
+
+}
+nav  {
+  text-decoration: none;
+  text-align: center;
+  padding: 50px 50px;
+  margin: 0px 40px;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+
+}
+
+}
+
+div {
+  display: inline-block;
+  margin: center;
+  padding: 50px 100px;
+}
+.face {
+
+    margin:center;
+    padding: 50px 250px;
+
+}
+.link{
+
+}
+.video {
+
+    margin:center;
+    padding: 50px 100px;
+
+}
+.bullets {
+
+    margin:center;
+    padding: 50px 250px;
+
+
+}

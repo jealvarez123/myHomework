@@ -2,6 +2,10 @@ console.log('Can I kick it?');
 
 
 
+function convertCurrency(event) {
+
+
+
 $.ajax({
   // What kind of request
   method: 'GET',
@@ -14,27 +18,40 @@ $.ajax({
 
   // Code to run if the request succeeds; the JSON
   // response is passed to the function as an argument.
-  success: onSuccess
-});
+  success: function(fixer) {
 
-// defining the callback function that will happen
-// if the request succeeds.
-function onSuccess(responseData) {
-var rates = responseData.rates
-console.log(rates);
-    // console.log(responseData.rates);
-    // celebrate!
-};
+let amt = $('#money').val();
 
-function convertCurrency(event) {
-  if ('type' in event.target && event.target.type === 'button') {
-  let convert = responseData.rates * 'money';
-    return convert;
-    console.log('convert');
-  }if ('type' in event.target && event.target.type === 'button') {
-    console.log('handle currency conversion here');
-  }
+// exchange rate data is stored in json.rates.country tender
+
+if (event.target.value === 'USD') {
+  let converted = amt * (fixer.rates.USD);
+  $('#output_amount').append('<p></p>').text(converted);
+  $('#output_currency').append('<p></p>').text('USD')
+
+    console.log('converted');
+  }else if (event.target.value === 'GBP') {
+    let converted = amt * (fixer.rates.GBP);
+    $('#output_amount').append('<p></p>').text(converted);
+    $('#output_currency').append('<p></p>').text('GBP')
+
+
+    }
+
+
+
+
+
 }
 
+
+
+
+    });
+
+};
+
+
+
+
 document.body.addEventListener('click', convertCurrency);
-  console.log('Click!');

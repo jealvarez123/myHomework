@@ -36,7 +36,19 @@ if (event.target.value === 'USD') {
     $('#output_currency').append('<p></p>').text('GBP')
 
 
-    }
+  }else if (event.target.value === 'CNY') {
+      let converted = amt * (fixer.rates.CNY);
+      $('#output_amount').append('<p></p>').text(converted);
+      $('#output_currency').append('<p></p>').text('CNY')
+
+
+    }else if (event.target.value === 'JPY') {
+        let converted = amt * (fixer.rates.JPY);
+        $('#output_amount').append('<p></p>').text(converted);
+        $('#output_currency').append('<p></p>').text('JPY')
+
+
+        }
 
 
 
